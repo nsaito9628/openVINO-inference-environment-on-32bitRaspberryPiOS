@@ -1,0 +1,9 @@
+#pyと学習済みモデルをuser rootにコピー後に実行
+python3 object_detection_demo_ssd_async.py -i cam -d MYRIAD -pt 0.4 -m ./person-vehicle-bike-detection-crossroad-0078.xml
+
+#または
+python3 object_detection_demo_ssd_async_cam.py -i cam -d MYRIAD -m ./person-vehicle-bike-detection-crossroad-0078.xml
+
+#または
+python3 object_detection_demo_ssd_async.py -i test.mp4 -d MYRIAD -m ./vehicle-detection-adas-0002.xml
+python3 object_detection_demo_ssd_async_mod.py -i test.mp4 -d MYRIAD -m ./vehicle-detection-adas-0002.xml
