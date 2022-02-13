@@ -1,7 +1,10 @@
 # openVINO-inference-environment-on-32bitRaspberryPiOS
-Procedure for building openVINO inference environment on 32bit Raspberry Pi OS
+Procedure for building openVINO inference environment on 32bit Raspberry Pi OS  
 
+It is a memorandum of environment construction.  
 
+<br>
+<br>
 
 ## **Physical specifications**
 
@@ -12,6 +15,9 @@ microSD card: 32GB or more
 
 #### **Inference accelerator**
 Intel NCS2 Neural Compute Stick 2  
+
+#### **USB camera**
+logicool C270N  
 <br>
 <br />
 
@@ -30,6 +36,7 @@ Language: python 3.7.2
 1.  Prepare RaspberryPi OS image disc.  https://www.raspberrypi.com/software/
 2. Insert the OS image disc into the Raspberry Pi and turn on the power.
 3. Make initial settings for Raspberry Pi, ssh/VNC available and connect to the Internet.  
+4. Connect c270n to USB 2.0 port  
 <br>
 
 ### **Building an environment on Raspberry Pi**
